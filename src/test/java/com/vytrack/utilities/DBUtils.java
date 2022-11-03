@@ -21,7 +21,7 @@ public class DBUtils {
     }
 
     public static void createConnection() {
-        String dbUrl = ConfigurationReader.get("qa2.database.url");
+        String dbUrl = ConfigurationReader.get("qa1.database.url");
         String dbUsername = ConfigurationReader.get("qa2.database.username");
         String dbPassword = ConfigurationReader.get("qa2.database.password");
         try {
